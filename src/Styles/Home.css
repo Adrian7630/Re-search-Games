@@ -1,0 +1,150 @@
+
+.Home
+{
+    width: 100%;
+    color: var(--white);
+}
+
+.Home-box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Home-title
+{
+    margin-top: 50px;
+    padding: 25px;
+    font-size: 40px;
+}
+
+.Home-title strong
+{
+    color: var(--primary);
+    filter: brightness(200%);
+}
+
+.Home-info
+{
+    width: 850px;
+    height: 400px;
+    border-radius: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--navbar);
+    padding: 20px;
+    font-size: 40px;
+
+    -webkit-box-shadow: -3px -6px 50px 10px var(--primary);
+    -moz-box-shadow: -3px -6px 50px 10px var(--primary);
+    box-shadow: -3px -6px 50px 10px var(--primary);
+}
+
+.Home-News i
+{
+    margin-top: 20px;
+    color: var(--primary);
+    filter: brightness(200%);
+    font-size: 90px;
+}
+
+.Home-News h3
+{
+    color: var(--primary);
+    filter: brightness(200%);
+}
+
+.Home-News strong
+{
+    color: var(--primary);
+    filter: brightness(200%);
+}
+
+.Home-News p
+{
+    padding: 0px 30px 0px 30px;
+    font-size: 30px;
+}
+
+@media (max-width: 770px)
+{
+
+    .Home-title
+    {
+        margin-top: 40px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .Home-info
+    {
+        width: 80%;
+        height: 500px;
+        border-radius: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+
+    .Home-News i
+    {
+        margin-top: 20px;
+        color: var(--primary);
+        filter: brightness(200%);
+        font-size: 90px;
+    }
+
+    .Home-News p
+    {
+        padding: 0px 30px 0px 30px;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 281px)
+{
+
+    .Home-title
+    {
+        margin-top: 40px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .Home-info
+    {
+        width: 80%;
+        height: 500px;
+        border-radius: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+
+    .Home-News i
+    {
+        margin-top: 20px;
+        color: var(--primary);
+        filter: brightness(200%);
+        font-size: 90px;
+    }
+
+    .Home-News p
+    {
+        padding: 0px 30px 0px 30px;
+        font-size: 20px;
+    }
+
+}

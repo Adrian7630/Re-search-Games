@@ -1,0 +1,231 @@
+
+
+.NavBar 
+{
+   width: 98%;
+   display: flex;
+   justify-content: center;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: var(--navbar);
+   border-bottom: 2px dotted var(--primary);
+
+   -webkit-box-shadow: 4px 21px 40px -4px var(--primary);
+   -moz-box-shadow: 4px 21px 40px -4px var(--primary);
+   box-shadow: 4px 21px 40px -4px var(--primary);
+ 
+ }
+ 
+.NavBar-Content
+{
+   display: flex;
+   width: 70%;
+   flex-direction: row;
+   text-align: center;
+   justify-content: space-between;
+   align-items: center;
+   color: var(--white);
+}
+
+.Logo
+{
+   text-decoration: none;
+   color: var(--primary);
+   font-size: 55px;
+   padding: 10px;
+   filter: brightness(200%);
+}
+
+.Logo:hover
+{
+   outline:none;
+  filter: brightness(150%);
+}
+
+.Logo img
+{
+   width: 60px;
+   height: 50px;
+}
+ 
+.NavBar-Links 
+{
+   list-style: none;
+   display: flex;
+   outline:none;
+   align-items: center;
+
+}
+ 
+.NavBar-Links li 
+{
+   display: inline-block;
+   outline:none;
+   margin-right: 30px;
+}
+
+.NBL
+{
+   font-size: 25px;
+   text-decoration: none;
+   color: var(--white);
+}
+
+.NBL:hover
+{
+  color: var(--primary);
+  outline:none;
+  filter: brightness(140%);
+}
+
+.NBL-BTN
+{
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: var(--white);
+   padding: 6px 18px;
+   background-color: var(--primary);
+   border-radius: 20px;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   filter: brightness(200%);
+}
+
+.NBL-BTN:hover
+{
+   outline:none;
+   filter: brightness(150%);
+}
+
+@media (max-width: 730px)
+{
+
+  .NavBar 
+{
+   width: 100%;
+   padding-right: 0px;
+   padding-left: 0px;
+ 
+ }
+  .NavBar-Content
+{
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.Logo
+{
+   font-size: 35px;
+}
+
+.NBL
+{
+   font-size: 16px;
+
+}
+
+.NavBar-Links li 
+{
+   display: inline-block;
+   margin-right: 10px;
+   outline:none;
+}
+
+
+.NBL-BTN
+{
+   font-size: 14px;
+   
+}
+
+}
+
+@media (max-width: 361px)
+{
+
+  .NavBar 
+{
+   width: 100%;
+   padding-right: 0px;
+   padding-left: 0px;
+ 
+ }
+  .NavBar-Content
+{
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.Logo
+{
+   font-size: 35px;
+}
+
+.NBL
+{
+   font-size: 16px;
+
+}
+
+.NavBar-Links li 
+{
+   display: inline-block;
+   margin-right: 10px;
+}
+
+
+.NBL-BTN
+{
+   font-size: 14px;
+}
+
+}
+
+
+@media (max-width: 321px)
+{
+
+  .NavBar 
+{
+   width: 100%;
+   padding-right: 0px;
+   padding-left: 0px;
+ 
+ }
+  .NavBar-Content
+{
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.Logo
+{
+   font-size: 30px;
+}
+
+.NBL
+{
+   font-size: 14px;
+
+}
+
+.NavBar-Links li 
+{
+   display: inline-block;
+   margin-right: 10px;
+}
+
+
+.NBL-BTN
+{
+   padding: 5px 6px;
+   font-size: 12px;
+}
+
+}
