@@ -6,6 +6,8 @@ const ResultCard = ( { game } ) => {
 
     const { addGameToGameList, gamelist, played, addGameToPlayed } = useContext( GameContext );
 
+    const cutie = game.parent_platforms ? game.parent_platforms : [] ;
+
     let storedGame = gamelist.find( elem => elem.id === game.id);
 
     let storedPlayed = played.find( elem => elem.id === game.id);
@@ -35,9 +37,15 @@ const ResultCard = ( { game } ) => {
 
                     <div className = "box-title">
                         <h4>Platform: </h4>
-                        <h4>{ game.parent_platforms.map( ( child, index ) => (
-                            <span key = { index } >{ child.platform.name }</span>
-                        ))}</h4>
+                        <h4>
+                            {
+                            
+                                cutie.map( ( child, index ) => (
+                                <span key = { index } >{ child.platform.name }</span>   
+                            ))
+                                
+                            }
+                        </h4>
                     </div>
 
                     <div className = "box-title">
